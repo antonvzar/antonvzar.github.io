@@ -5,9 +5,9 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vk api testtask</title>
-    <link rel="stylesheet" crossorigin href="./assets/index-Dmr0NmhE.css" />
-    <script type="module" crossorigin src="/assets/index-Dkr4mQK9.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BSwtvm_4.css">
+    <!-- <link rel="stylesheet" crossorigin href="./assets/index-Dmr0NmhE.css" /> -->
+    <script type="module" crossorigin src="/assets/index-BYQxfVga.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D543knq5.css" />
   </head>
   <div>
     <script src="https://unpkg.com/@vkid/sdk@<3.0.0/dist-sdk/umd/index.js"></script>
@@ -49,7 +49,6 @@
           });
 
         function vkidOnSuccess(data) {
-          alert("Yasos Biba");
           console.log(data);
           setCookie("access_token", data.access_token);
           setCookie("refresh_token", data.refresh_token);
@@ -77,7 +76,6 @@
         }
 
         function vkidOnError(error) {
-          alert("Yana Solyah");
           console.log(error);
         }
       }
